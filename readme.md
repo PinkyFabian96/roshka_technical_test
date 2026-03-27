@@ -19,7 +19,7 @@ PostgreSQL instalado y configurado en tu maquina local.
 
 📖 Documentación de la API (Ejemplos JSON)
 1. **Autenticación
-   Endpoint: POST /api/auth/login**
+   Endpoint: POST /login**
 
 Request (LoginRequestDTO):
 `{
@@ -35,7 +35,7 @@ Response (LoginResponseDTO):
 }`
 
 2. **Tareas (Tasks)
-   Endpoint: POST /api/tasks**
+   Endpoint: POST /tasks**
 
 Request (TaskRequestDTO):
 `{
@@ -57,7 +57,7 @@ Response (TaskResponseDTO):
 }`
 
 3. **Subtareas (Subtasks)
-   Endpoint: POST /api/tasks/{taskId}/subtasks**
+   Endpoint: POST /tasks/{taskId}/subtasks**
 
 Request (SubtaskRequestDTO):
 `{
@@ -67,7 +67,7 @@ Request (SubtaskRequestDTO):
 }`
 
 4. **Listados Paginados
-   Endpoint: GET /api/tasks?page=0**
+   Endpoint: GET /tasks?page=0**
 
 Response (PagedResponseDTO):
 `{
