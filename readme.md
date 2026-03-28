@@ -39,6 +39,10 @@ PostgreSQL instalado y configurado en tu maquina local.
 * POST /login → Para iniciar sesion
 * GET /profile → Para obtener datos el usuario logeado
 
+### Documentacion de Swagger
+
+[Swagger Link](http://localhost:8080/swagger-ui/index.html)
+
 Request (LoginRequestDTO):
 `{
     "username": "admin",
